@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="start_btn">
+        <button>
+            Start Quiz
+        </button>
+    </div> 
+    <div class="info_box">
+        <div class="info_title">
+            <span>SOME RULES OF THIS GAME</span>
+        </div>
+        <div class="rules">
+            <div class="div">1.you will have question according to category you select. </div>
+            <div class="div">2.Once you select your answer, it can't be undone.</div>
+            <div class="div">3.You can't select any option once you select answer. </div>
+            <div class="div">4.You can't exit from the Quiz while you're playing.</div>
+            <div class="div">5.You'll get points on the basis of your correct answers.</div>
+        </div>
+        <div class="buttons">
+            <button id="restart">Continue</button>
+        </div>
+    </div>
+    <div class="category-container">
+        <label for="category">select category</label>
+        <select  id="category">
+            <option value="GENERAL KNOWLEDGE">GENERAL KNOWLEDGE</option>
+            <option value="HISTORY">HISTORY</option>
+            <option value="COMPUTER">COMPUTER</option>
+        </select>
+    </div>
+    <div class="app">
+        <h1>Simple QUIZ</h1>
+        <div class="quiz">
+            <h2 id="question">QUESTIONS go here</h2>
+            <div id="answerbutton">
+                <button class="btn">answer 1</button>
+                <button class="btn">answer 2</button>
+                <button class="btn">answer 3</button>
+                <button class="btn">answer 4</button>
+            </div>
+            <button id="next-btn">NEXT</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
