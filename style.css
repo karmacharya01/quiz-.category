@@ -6,8 +6,9 @@
 }
 
 body {
-    background: #007bff;
+    background: black;
 }
+
 .start_btn,
 .info_box{
     position: absolute;
@@ -131,8 +132,22 @@ body {
     background-color: #f4f4f4;
     cursor: not-allowed;
 }
- 
-
+.category-container .buttons #next
+{
+    background: #007bff  ;
+    color: white;
+    font-weight: 500;
+    width: 150px;
+    border: none;
+    padding: 10px;
+    margin: auto auto auto;
+    cursor: pointer;
+    font-size: 15px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #007bff;
+    transition: all 0.3s ease;
+}
 .app {
     display: none;
     background: white;
@@ -204,4 +219,9 @@ body {
 .correct {
     background: #9aeabc;
 }
+
+.category-container {
+    margin-bottom: 20px;
+}
+
 
