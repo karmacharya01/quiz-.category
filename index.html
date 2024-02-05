@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Quiz App</title>
-    <link rel="stylesheet" href="style.css">
+    <title>QUIZ GAME</title>
+    <link rel="stylesheet" href="a.css">
 </head>
 <body>
     <div class="start_btn">
@@ -15,7 +15,7 @@
             <span>SOME RULES OF THIS GAME</span>
         </div>
         <div class="rules">
-            <div class="div">1.you will have question according to category you select. </div>
+            <div class="div">1.you will have 5 question each time you play and suffel everytime. </div>
             <div class="div">2.Once you select your answer, it can't be undone.</div>
             <div class="div">3.You can't select any option once you select answer. </div>
             <div class="div">4.You can't exit from the Quiz while you're playing.</div>
@@ -26,8 +26,9 @@
         </div>
     </div>
     <div class="category-container">
-        <label for="category">select category</label>
-        <select  id="category">
+        <label for="category" class="category-label">CHOOSE A CATEGORY</label>
+        <select id="category" class="category-select" onchange="changeCategory()">
+            <option value="option">CHOOSE A CATEGORY</option>
             <option value="GENERAL KNOWLEDGE">GENERAL KNOWLEDGE</option>
             <option value="HISTORY">HISTORY</option>
             <option value="COMPUTER">COMPUTER</option>
@@ -46,6 +47,6 @@
             <button id="next-btn">NEXT</button>
         </div>
     </div>
-    <script src="script.js"></script>
+    <script src="a.js"></script>
 </body>
 </html>
